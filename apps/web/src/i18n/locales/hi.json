@@ -1,0 +1,85 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "export": "निर्यात",
+    "refresh": "रीफ्रेश"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "projects": "परियोजनाएं",
+    "verifications": "सत्यापन",
+    "analytics": "विश्लेषण",
+    "settings": "सेटिंग्स",
+    "logout": "लॉगआउट"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "welcome": "ब्लूकार्बन रजिस्ट्री में आपका स्वागत है",
+    "stats": {
+      "verifiedArea": "सत्यापित मैंग्रोव क्षेत्र",
+      "tokenizedCredits": "टोकनाइज़्ड क्रेडिट",
+      "activeProjects": "सक्रिय परियोजनाएं",
+      "pendingVerifications": "लंबित सत्यापन"
+    },
+    "recentActivity": "हाल की गतिविधि",
+    "quickActions": "त्वरित कार्य"
+  },
+  "projects": {
+    "title": "परियोजनाएं",
+    "createNew": "नई परियोजना बनाएं",
+    "viewAll": "सभी परियोजनाएं देखें",
+    "status": {
+      "active": "सक्रिय",
+      "completed": "पूर्ण",
+      "suspended": "निलंबित"
+    },
+    "details": {
+      "area": "क्षेत्र",
+      "credits": "क्रेडिट",
+      "location": "स्थान",
+      "owner": "मालिक"
+    }
+  },
+  "verifications": {
+    "title": "सत्यापन",
+    "pending": "लंबित सत्यापन",
+    "completed": "पूर्ण सत्यापन",
+    "actions": {
+      "approve": "अनुमोदित करें",
+      "reject": "अस्वीकार करें",
+      "adjust": "समायोजित करें"
+    }
+  },
+  "analytics": {
+    "title": "विश्लेषण",
+    "overview": "अवलोकन",
+    "trends": "रुझान",
+    "performance": "प्रदर्शन",
+    "reports": "रिपोर्ट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "welcome": "वापसी पर स्वागत है",
+    "enterPhone": "अपना फोन नंबर दर्ज करें",
+    "enterOTP": "OTP दर्ज करें",
+    "verifyOTP": "OTP सत्यापित करें",
+    "resendOTP": "OTP पुनः भेजें"
+  },
+  "errors": {
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "unauthorized": "आप इस कार्य को करने के लिए अधिकृत नहीं हैं।",
+    "notFound": "अनुरोधित संसाधन नहीं मिला।",
+    "serverError": "सर्वर त्रुटि। कृपया बाद में पुनः प्रयास करें।",
+    "validationError": "कृपया अपना इनपुट जांचें और पुनः प्रयास करें।"
+  }
+}

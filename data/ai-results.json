@@ -1,0 +1,26 @@
+{
+  "verifications": [
+    {
+      "id": "verify_1",
+      "projectId": "proj_1",
+      "satelliteImageUrl": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500",
+      "ndviScore": 0.68,
+      "biomassEstimate": 125.5,
+      "co2Estimate": 5000,
+      "confidenceScore": 98,
+      "verificationDate": "2024-11-05",
+      "status": "verified"
+    },
+    {
+      "id": "verify_2",
+      "projectId": "proj_2",
+      "satelliteImageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+      "ndviScore": 0.72,
+      "biomassEstimate": 95.2,
+      "co2Estimate": 3200,
+      "confidenceScore": 95,
+      "verificationDate": "2024-11-04",
+      "status": "verified"
+    }
+  ]
+}

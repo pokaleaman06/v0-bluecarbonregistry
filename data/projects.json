@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Solar Farm - Maharashtra",
+      "type": "renewable_energy",
+      "location": {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "coordinates": [18.5204, 73.8567]
+      },
+      "areaKm2": 50,
+      "description": "Large-scale solar photovoltaic project",
+      "estimatedCO2Tons": 5000,
+      "verificationStatus": "verified",
+      "trustScore": 98,
+      "pricePerTon": 450,
+      "availableCredits": 2500,
+      "images": ["https://images.unsplash.com/photo-1509391366360-2e938aa1ef14?w=500"],
+      "createdAt": "2024-01-01"
+    },
+    {
+      "id": "proj_2",
+      "name": "Mangrove Restoration - Gujarat",
+      "type": "nature_based",
+      "location": {
+        "state": "Gujarat",
+        "district": "Kutch",
+        "coordinates": [23.7349, 69.6197]
+      },
+      "areaKm2": 120,
+      "description": "Coastal mangrove ecosystem restoration",
+      "estimatedCO2Tons": 3200,
+      "verificationStatus": "verified",
+      "trustScore": 95,
+      "pricePerTon": 380,
+      "availableCredits": 1600,
+      "images": ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500"],
+      "createdAt": "2024-01-05"
+    },
+    {
+      "id": "proj_3",
+      "name": "Wind Energy - Tamil Nadu",
+      "type": "renewable_energy",
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Tirunelveli",
+        "coordinates": [8.7139, 77.7567]
+      },
+      "areaKm2": 75,
+      "description": "Onshore wind farm with modern turbines",
+      "estimatedCO2Tons": 4500,
+      "verificationStatus": "pending",
+      "trustScore": 72,
+      "pricePerTon": 420,
+      "availableCredits": 2250,
+      "images": ["https://images.unsplash.com/photo-1532996122724-8f3c2cd83c5d?w=500"],
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": "proj_4",
+      "name": "Agroforestry - Karnataka",
+      "type": "land_restoration",
+      "location": {
+        "state": "Karnataka",
+        "district": "Belgaum",
+        "coordinates": [15.8691, 75.6173]
+      },
+      "areaKm2": 200,
+      "description": "Integrated farming with tree planting",
+      "estimatedCO2Tons": 2800,
+      "verificationStatus": "verified",
+      "trustScore": 88,
+      "pricePerTon": 320,
+      "availableCredits": 1400,
+      "images": ["https://images.unsplash.com/photo-1574181662614-8b9ef5b5d60f?w=500"],
+      "createdAt": "2024-01-15"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "refresh": "Refresh"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "verifications": "Verifications",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to BlueCarbon Registry",
+    "stats": {
+      "verifiedArea": "Verified Mangrove Area",
+      "tokenizedCredits": "Tokenized Credits",
+      "activeProjects": "Active Projects",
+      "pendingVerifications": "Pending Verifications"
+    },
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions"
+  },
+  "projects": {
+    "title": "Projects",
+    "createNew": "Create New Project",
+    "viewAll": "View All Projects",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "suspended": "Suspended"
+    },
+    "details": {
+      "area": "Area",
+      "credits": "Credits",
+      "location": "Location",
+      "owner": "Owner"
+    }
+  },
+  "verifications": {
+    "title": "Verifications",
+    "pending": "Pending Verifications",
+    "completed": "Completed Verifications",
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "adjust": "Adjust"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "overview": "Overview",
+    "trends": "Trends",
+    "performance": "Performance",
+    "reports": "Reports"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "welcome": "Welcome back",
+    "enterPhone": "Enter your phone number",
+    "enterOTP": "Enter OTP",
+    "verifyOTP": "Verify OTP",
+    "resendOTP": "Resend OTP"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Please check your input and try again."
+  }
+}

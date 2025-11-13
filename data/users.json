@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Raj Kumar",
+      "email": "raj@example.com",
+      "role": "individual",
+      "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Raj",
+      "totalCarbonOffset": 245.5,
+      "carboPoints": 12250,
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "user_2",
+      "name": "Priya Sharma",
+      "email": "priya@company.com",
+      "role": "business",
+      "company": "GreenTech Solutions",
+      "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
+      "totalCarbonOffset": 1250.0,
+      "carboPoints": 62500,
+      "createdAt": "2024-02-20"
+    },
+    {
+      "id": "user_3",
+      "name": "Amit Patel",
+      "email": "amit@ngo.org",
+      "role": "project_owner",
+      "organization": "Renewable India Foundation",
+      "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Amit",
+      "projectsSubmitted": 5,
+      "createdAt": "2024-03-10"
+    }
+  ]
+}

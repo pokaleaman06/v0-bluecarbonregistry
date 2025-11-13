@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "description": "Blue Carbon MRV Data - Dummy entries for prototype development",
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-20T10:00:00Z",
+    "dataSource": "Synthetic data for prototype - Replace with real FSI, MoSPI, NCCR datasets",
+    "instructions": [
+      "Replace dummy values with real data from:",
+      "- FSI 'State of Forest' reports for biomass data",
+      "- MoSPI ecosystem extent datasets for location/area data", 
+      "- NCCR shoreline erosion datasets for health metrics",
+      "- GBIF/iNaturalist for species images and distribution data"
+    ]
+  },
+  "ecosystems": [
+    {
+      "id": "ecosystem_001",
+      "name": "Sundarbans Mangrove Complex",
+      "ecosystemType": "Mangrove",
+      "location": {
+        "latitude": 22.2587,
+        "longitude": 88.9414,
+        "area": 10200.5,
+        "administrativeBoundary": {
+          "state": "West Bengal",
+          "district": "South 24 Parganas",
+          "block": "Gosaba"
+        }
+      },
+      "carbonPools": {
+        "aboveGroundBiomass": 156.8,
+        "belowGroundBiomass": 78.4,
+        "soilOrganicCarbon": 234.2,
+        "deadWood": 12.3,
+        "litter": 8.7
+      },
+      "monitoring": {
+        "lidarData": "placeholder_lidar_001.las",
+        "droneImagery": "https://example.com/drone/sundarbans_2024_01.jpg",
+        "fieldInventory": [
+          {
+            "plotId": "SUND_001",
+            "dbh": 25.4,
+            "height": 12.8,
+            "species": "Rhizophora mucronata",
+            "date": "2024-01-15"
+          },
+          {
+            "plotId": "SUND_002", 
+            "dbh": 18.7,
+            "height": 9.2,
+            "species": "Avicennia marina",
+            "date": "2024-01-15"
+          }
+        ],
+        "citizenSciencePhotos": [
+          "https://example.com/citizen/sundarbans_photo_001.jpg",
+          "https://example.com/citizen/sundarbans_photo_002.jpg"
+        ]
+      },
+      "ecosystemHealth": {
+        "nutrientConcentration": {
+          "nitrogen": 0.45,
+          "phosphorus": 0.12,
+          "potassium": 0.23
+        },
+        "salinity": 28.5,
+        "pH": 7.2,
+        "temperature": 26.8,
+        "biodiversityScore": 8.7,
+        "erosionRisk": "Low"
+      }
+    },
+    {
+      "id": "ecosystem_002",
+      "name": "Kerala Backwater Seagrass Beds",
+      "ecosystemType": "Seagrass",
+      "location": {
+        "latitude": 9.9312,
+        "longitude": 76.2673,
+        "area": 1250.8,
+        "administrativeBoundary": {
+          "state": "Kerala",
+          "district": "Alappuzha",
+          "block": "Kuttanad"
+        }
+      },
+      "carbonPools": {
+        "aboveGroundBiomass": 45.2,
+        "belowGroundBiomass": 89.6,
+        "soilOrganicCarbon": 156.8,
+        "deadWood": 2.1,
+        "litter": 5.4
+      },
+      "monitoring": {
+        "lidarData": "placeholder_lidar_002.las",
+        "droneImagery": "https://example.com/drone/kerala_seagrass_2024_01.jpg",
+        "fieldInventory": [
+          {
+            "plotId": "KER_001",
+            "dbh": 0.8,
+            "height": 0.6,
+            "species": "Halophila ovalis",
+            "date": "2024-01-18"
+          }
+        ],
+        "citizenSciencePhotos": [
+          "https://example.com/citizen/kerala_seagrass_001.jpg"
+        ]
+      },
+      "ecosystemHealth": {
+        "nutrientConcentration": {
+          "nitrogen": 0.38,
+          "phosphorus": 0.08,
+          "potassium": 0.19
+        },
+        "salinity": 32.1,
+        "pH": 8.1,
+        "temperature": 28.2,
+        "biodiversityScore": 7.3,
+        "erosionRisk": "Medium"
+      }
+    },
+    {
+      "id": "ecosystem_003",
+      "name": "Gujarat Coastal Salt Marshes",
+      "ecosystemType": "Salt Marsh",
+      "location": {
+        "latitude": 22.2587,
+        "longitude": 70.7729,
+        "area": 850.3,
+        "administrativeBoundary": {
+          "state": "Gujarat",
+          "district": "Kutch",
+          "block": "Mandvi"
+        }
+      },
+      "carbonPools": {
+        "aboveGroundBiomass": 23.7,
+        "belowGroundBiomass": 67.4,
+        "soilOrganicCarbon": 189.5,
+        "deadWood": 1.8,
+        "litter": 3.2
+      },
+      "monitoring": {
+        "lidarData": "placeholder_lidar_003.las",
+        "droneImagery": "https://example.com/drone/gujarat_saltmarsh_2024_01.jpg",
+        "fieldInventory": [
+          {
+            "plotId": "GUJ_001",
+            "dbh": 1.2,
+            "height": 0.8,
+            "species": "Salicornia brachiata",
+            "date": "2024-01-20"
+          }
+        ],
+        "citizenSciencePhotos": [
+          "https://example.com/citizen/gujarat_saltmarsh_001.jpg"
+        ]
+      },
+      "ecosystemHealth": {
+        "nutrientConcentration": {
+          "nitrogen": 0.52,
+          "phosphorus": 0.15,
+          "potassium": 0.28
+        },
+        "salinity": 35.8,
+        "pH": 7.8,
+        "temperature": 29.5,
+        "biodiversityScore": 6.9,
+        "erosionRisk": "High"
+      }
+    }
+  ],
+  "species": [
+    {
+      "id": "species_001",
+      "scientificName": "Rhizophora mucronata",
+      "commonName": "Red Mangrove",
+      "identifyingCharacteristics": [
+        "Prop roots extending from trunk",
+        "Leaves elliptical with pointed tips",
+        "Fruit germinates while still on tree",
+        "Bark reddish-brown, rough texture"
+      ],
+      "storedCarbonPercentage": 12.5,
+      "geographicalDistribution": ["West Bengal", "Odisha", "Andhra Pradesh"],
+      "ecosystemType": "Mangrove",
+      "imageUrl": "https://placeholder.com/400x300/4A90E2/FFFFFF?text=Red+Mangrove+(Rhizophora+mucronata)",
+      "dataSource": "GBIF - Replace with real species images from GBIF/iNaturalist",
+      "carbonPotential": "High",
+      "conservationStatus": "Least Concern"
+    },
+    {
+      "id": "species_002", 
+      "scientificName": "Avicennia marina",
+      "commonName": "Grey Mangrove",
+      "identifyingCharacteristics": [
+        "Pneumatophores (breathing roots)",
+        "Leaves grey-green, elliptical",
+        "Small yellow flowers",
+        "Salt-excreting glands on leaves"
+      ],
+      "storedCarbonPercentage": 10.8,
+      "geographicalDistribution": ["Gujarat", "Maharashtra", "Karnataka", "Kerala"],
+      "ecosystemType": "Mangrove",
+      "imageUrl": "https://placeholder.com/400x300/7ED321/FFFFFF?text=Grey+Mangrove+(Avicennia+marina)",
+      "dataSource": "iNaturalist - Replace with real species images",
+      "carbonPotential": "High",
+      "conservationStatus": "Least Concern"
+    },
+    {
+      "id": "species_003",
+      "scientificName": "Halophila ovalis",
+      "commonName": "Paddle Grass",
+      "identifyingCharacteristics": [
+        "Small paddle-shaped leaves",
+        "Submerged marine plant",
+        "Rhizomatous growth",
+        "Flowers on long stalks"
+      ],
+      "storedCarbonPercentage": 8.3,
+      "geographicalDistribution": ["Kerala", "Tamil Nadu", "Andhra Pradesh"],
+      "ecosystemType": "Seagrass",
+      "imageUrl": "https://placeholder.com/400x300/50E3C2/FFFFFF?text=Paddle+Grass+(Halophila+ovalis)",
+      "dataSource": "GBIF - Replace with real species images",
+      "carbonPotential": "Medium",
+      "conservationStatus": "Least Concern"
+    },
+    {
+      "id": "species_004",
+      "scientificName": "Salicornia brachiata",
+      "commonName": "Glasswort",
+      "identifyingCharacteristics": [
+        "Succulent, jointed stems",
+        "No true leaves",
+        "Green to red coloration",
+        "Salt-tolerant halophyte"
+      ],
+      "storedCarbonPercentage": 6.7,
+      "geographicalDistribution": ["Gujarat", "Rajasthan", "Haryana"],
+      "ecosystemType": "Salt Marsh",
+      "imageUrl": "https://placeholder.com/400x300/B8E986/FFFFFF?text=Glasswort+(Salicornia+brachiata)",
+      "dataSource": "iNaturalist - Replace with real species images",
+      "carbonPotential": "Medium",
+      "conservationStatus": "Least Concern"
+    },
+    {
+      "id": "species_005",
+      "scientificName": "Bruguiera gymnorrhiza",
+      "commonName": "Large-leafed Orange Mangrove",
+      "identifyingCharacteristics": [
+        "Large elliptical leaves",
+        "Knee roots (pneumatophores)",
+        "Orange-red flowers",
+        "Thick, leathery leaves"
+      ],
+      "storedCarbonPercentage": 14.2,
+      "geographicalDistribution": ["West Bengal", "Odisha", "Andhra Pradesh"],
+      "ecosystemType": "Mangrove",
+      "imageUrl": "https://placeholder.com/400x300/F5A623/FFFFFF?text=Large-leafed+Orange+Mangrove+(Bruguiera+gymnorrhiza)",
+      "dataSource": "GBIF - Replace with real species images",
+      "carbonPotential": "Very High",
+      "conservationStatus": "Near Threatened"
+    },
+    {
+      "id": "species_006",
+      "scientificName": "Cymodocea serrulata",
+      "commonName": "Serrated Ribbon Grass",
+      "identifyingCharacteristics": [
+        "Ribbon-like leaves with serrated edges",
+        "Submerged marine plant",
+        "Rhizomatous growth",
+        "Small flowers in clusters"
+      ],
+      "storedCarbonPercentage": 7.9,
+      "geographicalDistribution": ["Tamil Nadu", "Kerala", "Karnataka"],
+      "ecosystemType": "Seagrass",
+      "imageUrl": "https://placeholder.com/400x300/4A90E2/FFFFFF?text=Serrated+Ribbon+Grass+(Cymodocea+serrulata)",
+      "dataSource": "iNaturalist - Replace with real species images",
+      "carbonPotential": "Medium",
+      "conservationStatus": "Least Concern"
+    }
+  ],
+  "monitoringStations": [
+    {
+      "id": "station_001",
+      "name": "Sundarbans Monitoring Station Alpha",
+      "location": {
+        "latitude": 22.2587,
+        "longitude": 88.9414
+      },
+      "ecosystemId": "ecosystem_001",
+      "equipment": [
+        "LiDAR Scanner",
+        "Multispectral Camera",
+        "Water Quality Sensors",
+        "Weather Station"
+      ],
+      "lastDataCollection": "2024-01-20T08:30:00Z",
+      "dataFrequency": "Weekly"
+    },
+    {
+      "id": "station_002",
+      "name": "Kerala Seagrass Monitoring Beta",
+      "location": {
+        "latitude": 9.9312,
+        "longitude": 76.2673
+      },
+      "ecosystemId": "ecosystem_002",
+      "equipment": [
+        "Underwater Camera",
+        "Water Quality Sensors",
+        "GPS Tracker",
+        "Temperature Logger"
+      ],
+      "lastDataCollection": "2024-01-19T14:15:00Z",
+      "dataFrequency": "Bi-weekly"
+    }
+  ],
+  "dataValidation": {
+    "coordinateValidation": {
+      "mangroveZones": [
+        {
+          "state": "West Bengal",
+          "bounds": {
+            "north": 22.5,
+            "south": 21.5,
+            "east": 89.5,
+            "west": 88.0
+          }
+        },
+        {
+          "state": "Gujarat", 
+          "bounds": {
+            "north": 24.0,
+            "south": 20.0,
+            "east": 72.0,
+            "west": 68.0
+          }
+        }
+      ],
+      "seagrassZones": [
+        {
+          "state": "Kerala",
+          "bounds": {
+            "north": 12.0,
+            "south": 8.0,
+            "east": 77.0,
+            "west": 75.0
+          }
+        }
+      ]
+    },
+    "carbonStockRanges": {
+      "mangrove": {
+        "min": 50.0,
+        "max": 300.0,
+        "unit": "tC/ha"
+      },
+      "seagrass": {
+        "min": 20.0,
+        "max": 150.0,
+        "unit": "tC/ha"
+      },
+      "saltMarsh": {
+        "min": 30.0,
+        "max": 200.0,
+        "unit": "tC/ha"
+      }
+    }
+  }
+}
